@@ -95,7 +95,7 @@ def Andiv(nstorp,networka,reflen,anL,ran,s,da):
         ctl[2,:c3] += nT
         nlen+=1e-20
         ctl+=1e-20
-        mdist = ctl/nlen
+    mdist = ctl/nlen
 
     return mdist
 
